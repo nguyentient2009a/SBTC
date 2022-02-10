@@ -1,0 +1,94 @@
+@media screen and (max-width: 767px){
+    header .logo-header a{
+        position: relative;
+        top: -6px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    header .logo-header a img{
+        width: 117px;
+        height: 35px;
+    }
+    .search-header{
+        display: none;
+    }
+    header .btn-action ul li.btn-login a{
+        font-size: 0;
+    }
+    header .btn-action ul li.btn-login{
+        margin: 0
+    }
+    header .btn-action ul li.btn-login a{
+        background-position: inherit;
+    }
+    header .menu-main{
+        margin: 0;
+    }
+    .form-filter-area{
+        display: inherit;
+    }
+    .item-filter.dropdown {
+        margin-right: 0px;
+    }
+    .btn.drilldown{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form-filter-area .dropdown-menu{
+        min-width: 100% !important;
+    }
+    .details-post h1{
+        font-size: 20px;
+        line-height: 1.4;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .list-item-post .item-post .item-info h3 a{
+        max-height: 42px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+    }
+    .list-item-post .item-post .item-image{
+        width: 40%;
+        height: 100px;
+    }
+    .col-left{
+        padding: 0;
+    }
+
+    footer .footer-holine button{
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    #details{
+        margin: 0 -15px !important;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .btn-action ul li.btn-login a{
+        font-size: 0;
+    }
+    header .btn-action ul li.btn-login{
+        margin: 0
+    }
+    header .btn-action ul li.btn-login a{
+        background-position: inherit;
+    }
+    header .menu-main{
+        margin: 0;
+    }
+    header .btn-action{
+        padding-top: 10px;
+    }
+
+    
+}

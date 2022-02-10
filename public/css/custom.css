@@ -1,0 +1,9 @@
+.dropdown-menu li {
+    padding: 4px 0;
+}
+.menu-link.active {
+    font-weight: 600;
+}
+.load {
+    display: none;
+}
